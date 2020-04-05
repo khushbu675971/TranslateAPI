@@ -32,7 +32,7 @@ Create REST API endpoint:
 - Java 1.8 and above, Eclipse, tomcat.
 - Google service account key which can be created using [Google Translate Setup](https://cloud.google.com/translate/docs/advanced/setup-advanced)
 - Docker
-- Update google cloud ```<project id>``` in ```config.properties``` on these file paths:
+- Update google cloud ```<google_translate_project_id>``` in ```config.properties``` on these file paths:
     - src/main/resources/config.properties
     - src/test/resources/config.properties
 - Set environment variable
