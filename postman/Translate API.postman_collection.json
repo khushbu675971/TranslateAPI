@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "ae1c2ecc-f324-4a09-a47d-fb97896d13b5",
+		"name": "Translate API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Translation API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "sourcelang",
+							"value": "en-US",
+							"type": "text"
+						},
+						{
+							"key": "targetlang",
+							"value": "cs-CZ",
+							"type": "text"
+						},
+						{
+							"key": "text",
+							"value": "Hello World",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/translate-api/api/v1/translate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"translate-api",
+						"api",
+						"v1",
+						"translate"
+					]
+				},
+				"description": "Translate text form source language to target language."
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "2eb7cc2a-0b94-4443-b9b5-ecf3940ec0fe",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "9fa6896a-b7dd-4248-9feb-b92743ac3c53",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
