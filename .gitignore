@@ -1,0 +1,6 @@
+.DS_Store
+/target/
+.classpath
+.project
+.settings/
+google-service-account.json
